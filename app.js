@@ -4,6 +4,7 @@ const data = require("./api/cohorts");
 const port = parseInt(process.env.PORT || 8080);
 
 const app = express();
+
 app.use(cors());
 
 function getCohortById(data,id) {
